@@ -14,9 +14,6 @@ body {
 .logo {
     margin-left: 140px;
 }
-.list {
-    text-align: right;
-}
 .hero-homepage {
     background-image: url(/img/bg.png);
 }
