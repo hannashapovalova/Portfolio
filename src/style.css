@@ -2,6 +2,7 @@
     --default-font-family: 'Roboto', sans-serif;
     --main-color: #1B1B1B; 
     --secondary-color: #282323;
+    --third-color: #F65282;
 }
 /* Homepage */
 body {
@@ -74,13 +75,54 @@ footer {
     font-size: 16px;
     line-height: 18px;
     margin-left: 30px;
-    
 }
 .watermark {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
 }
+
+/* Contact */
+.contact-header {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 84px;
+    letter-spacing: 0.1em;
+    padding: 0;
+    margin-top: 32px;
+}
+.address-block {
+    padding: 0;
+    margin-top: 140px;
+    margin-bottom: 85px;
+
+}
+.contact-title {
+    color: var(--third-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    padding: 0;
+    margin-bottom: 10px;
+}
+.contact-info {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0;
+    margin-bottom: 40px;
+}
+.icon-contact {
+    margin-right: 10px;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+
 /* Gallery */
 
 .galley-header {
