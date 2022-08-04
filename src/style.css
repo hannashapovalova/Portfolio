@@ -82,6 +82,71 @@ footer {
     line-height: 19px;
 }
 
+/* About */
+
+.about-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    color: var(--third-color);
+    padding: 0;
+    margin-top: 51px;
+    text-align: left;
+}
+.about-header {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 0;
+    margin-top: 32px;
+    margin-bottom: 34px;
+}
+.about-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0;
+    margin: 0;
+}
+.about-icon {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 0;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+}
+.camera {
+    background-color: var(--secondary-color);
+    margin-top: 32px;
+    margin-bottom: 67px;
+}
+.camera-img {
+    width: 70px;
+    height: 40.57px;
+}
+.camera-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+}
+.contact-button {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    text-decoration: none;
+    padding: 18px 45px;
+}
 /* Contact */
 .contact-header {
     font-weight: 700;
