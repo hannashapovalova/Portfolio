@@ -59,6 +59,7 @@ body {
 }
 .photo-gallery {
     padding-top: 100px;
+    background-color: var(--main-color);
 }
 .image-row {
     padding: 40px;
