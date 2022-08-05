@@ -200,6 +200,9 @@ footer {
     padding: 0;
     margin-bottom: 40px;
 }
+.contact-info:hover {
+    color: var(--third-color);
+}
 .icon-contact {
     margin-right: 10px;
     font-weight: 900;
