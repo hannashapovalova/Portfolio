@@ -13,16 +13,18 @@ body {
 .navbar {
     height: 118px;
 }
-.logo {
+.logo-navbar {
     margin-left: 140px;
+    margin-right: 720px;
 }
 .hero-homepage {
     background-image: url(/img/bg.png);
+    height: 900px;
 }
 .introduction {
     width: 100%;
     height: 780px;
-    padding-top: 280px;
+    padding-top: 160px;
 }
 .hero-name {
     font-weight: 700;
@@ -30,15 +32,16 @@ body {
     line-height: 28px;
     letter-spacing: 0.1em;
     margin: 0;
+    text-transform: uppercase;
 }
 .hero-profession {
     font-weight: 700;
     font-size: 72px;
     line-height: 84px;
     letter-spacing: 0.1em;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     margin: 25px;
     padding: 0;
+    text-transform: uppercase;
 }
 .hero-description {
     padding: 0;
@@ -48,7 +51,7 @@ body {
     line-height: 30px;
 }
 .hero-button {
-    margin-top: 80px;
+    margin-top: 50px;
     padding: 18px 40px;
     font-weight: 700;
     font-size: 14px;
@@ -57,13 +60,20 @@ body {
     color: var(--secondary-color);
     border-radius: 50px;
     font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
 }
 .photo-gallery {
-    padding-top: 100px;
+    padding: 0;
+    margin-top: 80px;
+    margin-bottom: 80px;
     background-color: var(--main-color);
 }
 .image-row {
-    padding: 40px;
+    padding: 20px;
+}
+.col {
+    margin: 0;
+    padding: 0;
 }
 footer {
     background-color: var(--secondary-color);
@@ -83,7 +93,11 @@ footer {
 }
 
 /* About */
-
+.about-me-block {
+    padding: 0;
+    margin-left: 40px;
+    text-align: left;
+}
 .about-title {
     font-weight: 700;
     font-size: 18px;
@@ -92,7 +106,7 @@ footer {
     color: var(--third-color);
     padding: 0;
     margin-top: 51px;
-    text-align: left;
+    text-transform: uppercase;
 }
 .about-header {
     font-weight: 700;
@@ -118,21 +132,24 @@ footer {
     padding: 0;
     margin-top: 50px;
     margin-bottom: 15px;
-    margin-left: 30px;
+    margin-right: 30px;
 }
 .camera {
     background-color: var(--secondary-color);
     margin-top: 32px;
     margin-bottom: 67px;
+    display: flex;
 }
 .camera-img {
     width: 70px;
     height: 40.57px;
+    margin: 20px;
 }
 .camera-name {
     font-weight: 700;
     font-size: 18px;
     line-height: 30px;
+    margin: 25px 20px 25px 10px;
 }
 .contact-button {
     font-weight: 700;
@@ -146,6 +163,7 @@ footer {
     background-color: white;
     text-decoration: none;
     padding: 18px 45px;
+    text-transform: uppercase;
 }
 /* Contact */
 .contact-header {
@@ -155,6 +173,7 @@ footer {
     letter-spacing: 0.1em;
     padding: 0;
     margin-top: 32px;
+    text-transform: uppercase;
 }
 .address-block {
     padding: 0;
@@ -170,6 +189,7 @@ footer {
     letter-spacing: 0.1em;
     padding: 0;
     margin-bottom: 10px;
+    text-transform: uppercase;
 }
 .contact-info {
     color: white;
@@ -198,4 +218,5 @@ footer {
     padding: 0;
     margin-top: 32px;
     margin-bottom: 65px;
+    text-transform: uppercase;
 }
