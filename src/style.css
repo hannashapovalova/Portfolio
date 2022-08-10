@@ -242,7 +242,6 @@ footer {
     }
     .introduction {
         margin-top: 60px;
-        height: 400px;
     }
     .hero-button {
         margin-top: 20px;
@@ -254,6 +253,9 @@ footer {
     .camera {
         width: 400px;
     }
-        
+    .hero-homepage {
+        background-image: var(--main-color);
+        height: 400px;
+    }
 }
            
