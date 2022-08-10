@@ -4,11 +4,16 @@
     --secondary-color: #282323;
     --third-color: #F65282;
 }
-/* Homepage */
+
 body {
     color: white;
     text-align: center;
     background-color: var(--main-color);
+}
+footer {
+    background-color: var(--secondary-color);
+    height: 100px;
+    padding: 40px;
 }
 .navbar {
     height: 118px;
@@ -17,6 +22,23 @@ body {
     margin-left: 140px;
     margin-right: 720px;
 }
+.col {
+    margin: 0;
+    padding: 0;
+}
+.icon {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    margin-left: 30px;
+}
+.watermark {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/* Homepage */
 .hero-homepage {
     background-image: url(/img/bg.png);
     height: 900px;
@@ -70,26 +92,6 @@ body {
 }
 .image-row {
     padding: 20px;
-}
-.col {
-    margin: 0;
-    padding: 0;
-}
-footer {
-    background-color: var(--secondary-color);
-    height: 100px;
-    padding: 40px;
-}
-.icon {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 18px;
-    margin-left: 30px;
-}
-.watermark {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
 }
 
 /* About */
@@ -165,6 +167,19 @@ footer {
     padding: 18px 45px;
     text-transform: uppercase;
 }
+
+/* Gallery */
+.galley-header {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 84px;
+    letter-spacing: 0.1em;
+    padding: 0;
+    margin-top: 32px;
+    margin-bottom: 65px;
+    text-transform: uppercase;
+}
+
 /* Contact */
 .contact-header {
     font-weight: 700;
@@ -179,7 +194,6 @@ footer {
     padding: 0;
     margin-top: 140px;
     margin-bottom: 85px;
-
 }
 .contact-title {
     color: var(--third-color);
@@ -210,35 +224,17 @@ footer {
     line-height: 30px;
 }
 
-
-/* Gallery */
-
-.galley-header {
-    font-weight: 700;
-    font-size: 72px;
-    line-height: 84px;
-    letter-spacing: 0.1em;
-    padding: 0;
-    margin-top: 32px;
-    margin-bottom: 65px;
-    text-transform: uppercase;
-}
-
 @media (max-width: 900px) {
-    .hero-profession {
-        font-size: 40px;
-    }
-    .address-block {
-        margin-top: 85px;
-    }
     .navbar {
         height: 70px;
     }
-    .about-header {
-        font-size: 40px;
+    /* Homepage */
+    .hero-homepage {
+        background-image: var(--main-color);
+        height: 500px;
     }
-    .about-me-block {
-        margin-left: 15px;
+    .hero-profession {
+        font-size: 40px;
     }
     .introduction {
         padding-top: 100px;
@@ -250,16 +246,23 @@ footer {
         margin-top: 30px;
         margin-bottom: 30px;
     }
-    .camera {
-        width: 350px;
+    /* About */
+    .about-me-block {
+        margin-left: 15px;
     }
-    .hero-homepage {
-        background-image: var(--main-color);
-        height: 500px;
+    .about-header {
+        font-size: 40px;
     }
     .about-description {
         font-size: 12px;
         width: 350px;
+    }
+    .camera {
+        width: 350px;
+    }
+    /* Contact */
+    .address-block {
+        margin-top: 85px;
     }
 }
            
