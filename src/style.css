@@ -223,6 +223,12 @@ footer {
     font-size: 14px;
     line-height: 30px;
 }
+.autor {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+}
 
 @media (max-width: 900px) {
     .navbar {
@@ -263,6 +269,12 @@ footer {
     /* Contact */
     .address-block {
         margin-top: 85px;
+    }
+    .autor {
+        font-size: 12px;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
     }
 }
            
