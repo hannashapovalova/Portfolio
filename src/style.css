@@ -241,7 +241,7 @@ footer {
         margin-left: 15px;
     }
     .introduction {
-        margin-top: 60px;
+        padding-top: 100px;
     }
     .hero-button {
         margin-top: 20px;
@@ -255,7 +255,6 @@ footer {
     }
     .hero-homepage {
         background-image: var(--main-color);
-        height: 400px;
     }
 }
            
