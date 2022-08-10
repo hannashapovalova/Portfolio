@@ -237,5 +237,8 @@ footer {
     .about-header {
         font-size: 40px;
     }
+    .about-me-block {
+        margin-left: 15px;
+    }
 }
            
