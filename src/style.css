@@ -223,3 +223,19 @@ footer {
     margin-bottom: 65px;
     text-transform: uppercase;
 }
+
+@media (max-width: 900px) {
+    .hero-profession {
+        font-size: 40px;
+    }
+    .address-block {
+        margin-top: 85px;
+    }
+    .navbar {
+        height: 70px;
+    }
+    .about-header {
+        font-size: 40px;
+    }
+}
+           
