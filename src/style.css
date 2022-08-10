@@ -255,6 +255,7 @@ footer {
     }
     .hero-homepage {
         background-image: var(--main-color);
+        height: 500px;
     }
 }
            
