@@ -251,11 +251,15 @@ footer {
         margin-bottom: 30px;
     }
     .camera {
-        width: 400px;
+        width: 350px;
     }
     .hero-homepage {
         background-image: var(--main-color);
         height: 500px;
+    }
+    .about-description {
+        font-size: 12px;
+        width: 350px;
     }
 }
            
